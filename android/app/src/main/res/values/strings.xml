@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DemoRn</string>
+    <string name="CodePushDeploymentKey">{key}</string>
+    // 配置code-push生成的key
+</resources>

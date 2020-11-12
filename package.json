@@ -1,0 +1,77 @@
+{
+	"name": "rnrn",
+	"version": "0.0.1",
+	"private": true,
+	"author": {
+		"name": "liuyang"
+	},
+	"description": "Android调试",
+	"scripts": {
+		"android": "react-native run-android",
+		"ios": "react-native run-ios",
+		"start": "react-native start",
+		"test": "jest",
+		"lint": "eslint ."
+	},
+	"dependencies": {
+		"@react-native-community/art": "^1.1.2",
+		"@react-native-community/async-storage": "^1.12.0",
+		"@react-native-community/masked-view": "^0.1.10",
+		"@react-native-community/viewpager": "^3.3.0",
+		"axios": "^0.20.0",
+		"easy-peasy": "3.1.0",
+		"geekbase": "^3.0.2",
+		"prop-types": "^15.7.2",
+		"react": "16.13.1",
+		"react-native": "0.63.3",
+		"react-native-device-info": "^6.2.0",
+		"react-native-extra-dimensions-android": "^1.2.5",
+		"react-native-fast-image": "^8.3.2",
+		"react-native-fs": "^2.16.6",
+		"react-native-code-push": "https://dev.jiuaoedu.com/sunzheng/react-native-code-push.git",
+		"react-native-gesture-handler": "^1.8.0",
+		"react-native-modal": "^11.5.6",
+		"react-native-player": "https://dev.jiuaoedu.com/sunzheng/react-native-geek-player.git",
+		"react-native-reanimated": "^1.13.0",
+		"react-native-refresh-list-view": "^1.0.12",
+		"react-native-root-siblings": "^4.0.6",
+		"react-native-safe-area-context": "^3.1.7",
+		"react-native-screens": "^2.10.1",
+		"react-native-scrollable-tab-view": "^1.0.0",
+		"react-native-tbswebview": "https://dev.jiuaoedu.com/sunzheng/react-native-tbswebview.git",
+		"react-native-version-number": "^0.3.6",
+		"react-native-webview": "^10.9.2",
+		"react-native-weixin": "https://dev.jiuaoedu.com/sunzheng/react-native-weixin.git",
+		"react-navigation": "^4.4.0",
+		"react-navigation-stack": "^2.8.2",
+		"react-navigation-tabs": "^2.9.0",
+		"react-redux": "^7.2.1",
+		"rn-fetch-blob": "https://dev.jiuaoedu.com/sunzheng/rn-fetch-blob.git"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.11.6",
+		"@babel/runtime": "^7.11.2",
+		"@react-native-community/eslint-config": "^2.0.0",
+		"@types/jest": "^26.0.14",
+		"@types/react": "^16.9.51",
+		"@types/react-native": "^0.63.25",
+		"@types/react-test-renderer": "^16.9.3",
+		"babel-jest": "^26.5.2",
+		"babel-plugin-root-import": "^6.5.0",
+		"eslint": "^7.10.0",
+		"husky": "^4.3.0",
+		"jest": "^26.5.2",
+		"metro-react-native-babel-preset": "^0.63.0",
+		"react-test-renderer": "16.11.0",
+		"typescript": "^4.0.3",
+		"validate-commit-msg": "^2.14.0"
+	},
+	"jest": {
+		"preset": "react-native"
+	},
+	"husky": {
+		"hooks": {
+			"commit-msg": "validate-commit-msg"
+		}
+	}
+}
